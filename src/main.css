@@ -1,0 +1,23 @@
+body{
+  margin: 0;
+  background-color: lightyellow;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  height: 100vh;
+}
+img{
+  border-radius: 10%;
+  width: 300px;
+  box-shadow: 0 0 0 5px black;
+}
+h1{
+  font-size: 3em;
+  font-family: san-serif;
+  color: blue;
+  text-shadow: 0 0 20px black;
+}
